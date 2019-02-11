@@ -1,0 +1,26 @@
+{
+    "name": "camera",
+    "description": "Display your camera on-top of all other apps",
+    "version": "0.1.0",
+    "author": {
+        "name": "Neil Sweeney",
+        "email": "neil@wolfiezero.com",
+        "url": "https://wolfiezero.com/"
+    },
+    "build": {
+        "appId": "com.wolfiezero.camera",
+        "productName": "Camera",
+        "copyright": "MIT License"
+    },
+    "private": true,
+    "scripts": {
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    },
+    "main": "main.js",
+    "devDependencies": {
+        "electron": "^4.0.4",
+        "electron-builder": "^20.38.5"
+    }
+}
